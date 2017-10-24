@@ -1,0 +1,124 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body{
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Other/Back.png);
+    background-repeat: repeat;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.container{
+    padding: 2% 2% 0% 2%;
+}
+
+.logo img{
+    width: 500px;
+    float: left;
+}
+
+#nav{
+    padding-top: 2%;
+}
+
+.banner ul{
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-size: 85%;
+    text-align: right;
+    float: right;
+}
+
+#nav ul{
+    list-style-type: none;
+}
+
+#nav a{
+    text-decoration: none; 
+    padding-right: 30px;
+    color: white;
+}
+
+#nav a:hover{
+    color: grey;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav img{
+    width: 30px;
+    float: right;
+    margin-top: 5px;
+}
+
+.info{
+    margin-top: 7%;
+}
+
+#homesyn p{
+    text-align: justify;
+}
+
+.gallery{
+    margin-top: 15%;
+    text-align: center;
+}
+
+.gallery h3{
+}
+
+.gallery img{
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery ul li{
+    display: inline-block;
+}
+
+#pres img{
+    height: 350px;
+}
+
+.music{
+    margin-top: 7%;
+}
+
+.shows{
+    margin-top: 8%;
+}
+
+.shows p{
+    float: left;
+}
+
+.shows h3{
+    border-style: solid;
+    padding: 15px;
+    margin-top: 13%;
+    float: right;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.contact p{
+    line-height: 300%;
+}
+
